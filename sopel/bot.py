@@ -319,7 +319,8 @@ class Sopel(irc.Bot):
                     penalty = float(max(0, len(text) - 40)) / 70
                     wait = 0.8 + penalty
                     if elapsed < wait:
-                        time.sleep(wait - elapsed)
+                        pass #yolo swag
+                    #    time.sleep(wait - elapsed)
 
                 # Loop detection
                 messages = [m[1] for m in self.stack[recipient_id][-8:]]
