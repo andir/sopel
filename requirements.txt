@@ -3,4 +3,4 @@ pytz
 praw
 pyenchant
 pygeoip
-requests>=2.0.0,<2.15.0
+requests>=2.0.0
